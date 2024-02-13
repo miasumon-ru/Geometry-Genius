@@ -134,6 +134,45 @@
                         </div>
                     </div>
                 </div>
+                <!-- pentagon area -->
+                <div class="card  bg-base-200 boreder-2 border-gray-400 p-5">
+                    <figure><img src="./images/pentagon.png" alt="rectangle" /></figure>
+                    <div class="card-body">
+
+                        <div class="flex flex-col justify-center items-center">
+
+
+                            <h2 class="card-title mb-2 text-3xl">Pentagon</h2>
+                            <p class="text-2xl">Area = 0.5 X  p X b </p>
+
+
+                        </div>
+
+                        <div class="flex flex-row mt-5">
+
+                            <!-- p of pentagon -->
+
+                            <input class="w-24 p-2 rounded-md" type="text" name="" id="pentagon-p" placeholder="width"> <span class="ml-2 mr-4 flex justify-center items-center text-2xl">cm</span>
+
+                            <!--b of the pentagon-->
+
+                            <input class="w-24 p-2 rounded-md" type="text" name="" id="pentagon-b" placeholder="length"> <span class="ml-2 flex justify-center items-center text-2xl">cm</span>
+
+                        </div>
+
+                        <div>
+                            <p class="text-2xl mt-2 flex justify-center items-center
+                            ">Area : <span id="pentagon-display" class="ml-2"> 0 </span> <span class="ml-2">cm<sup>2</sup></span></p>
+                        </div>
+
+
+
+
+                        <div class="card-actions mt-6">
+                            <button onclick="calculatePentagonArea()" class="btn btn-primary w-full">Calculate</button>
+                        </div>
+                    </div>
+                </div>
                 <!-- triangle area -->
                 <div class="card  bg-base-100 shadow-xl">
                     <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
@@ -186,6 +225,7 @@
         <script src="./script/triangle-area.js"></script>
         <script src="./script/rectangle-area.js"></script>
         <script src="./script/parallelogram-areal.js"></script>
+        <script src="./script/pentagon-area.js"></script>
 
     </main>
 </body>
